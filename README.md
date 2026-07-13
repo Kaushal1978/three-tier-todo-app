@@ -1,3 +1,37 @@
+# 🏗️ Architecture
+
+<p align="center">
+  <img src="./assets/architecture.png" alt="Three-Tier AWS EKS Architecture" width="1000"/>
+</p>
+
+---
+
+# 🛠️ Tech Stack Used
+
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React.js, HTML5, CSS3, JavaScript |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| Containerization | Docker |
+| Container Registry | Amazon ECR |
+| Orchestration | Kubernetes |
+| Cloud | AWS (EC2, EKS, ECR, IAM, ALB) |
+| DevOps Tools | Git, GitHub, kubectl, eksctl, AWS CLI |
+| OS | Ubuntu Linux |
+
+
+# 📖 About The Project
+
+This project demonstrates the deployment of a **Three-Tier Todo Application** on **Amazon Elastic Kubernetes Service (EKS)** using modern DevOps practices.
+
+The application consists of a **React.js frontend**, **Node.js/Express backend**, and **MongoDB database**. Each component is containerized using Docker and deployed as independent Kubernetes Deployments. Docker images are stored in **Amazon Elastic Container Registry (ECR)**, while Kubernetes manages application scaling, networking, and high availability.
+
+The application is exposed to end users through **Kubernetes Ingress** integrated with the **AWS Load Balancer Controller**, which automatically provisions an **Application Load Balancer (ALB)**.
+
+This project provides hands-on experience with containerization, Kubernetes orchestration, cloud-native deployment, and AWS infrastructure management, making it an ideal DevOps portfolio project.
+
+
 # Step 1: IAM Configuration
 
 - Create an IAM user with **AdministratorAccess**.
